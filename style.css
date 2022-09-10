@@ -1,0 +1,218 @@
+body {
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  letter-spacing: 1px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+.titleMessage {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 50%;
+  z-index: 5;
+  text-align: center;
+  margin-top: -125px;
+}
+
+.titleMessage .heading p {
+  color: #fff;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  font-weight: 100;
+  letter-spacing: 7px;
+}
+
+.titleMessage .heading .main {
+  font-size: 50px;
+}
+
+.titleMessage .heading .sub {
+  font-size: 23px;
+}
+
+.section {
+  background-color: rgb(27, 27, 27);
+  color: rgb(151, 150, 150);
+  padding: 100px 0;
+}
+
+.aboutImage {
+  max-width: 100%;
+}
+
+.skillsSection {
+  background: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(3, 221, 255, 0.393) 0%,
+    rgba(0, 90, 143, 1) 100%
+  );
+  color: #fff;
+}
+
+.contactSection {
+  
+    width: 138%;
+    MARGIN-LEFT: -205PX;
+
+  margin-top: 40px;
+  background: linear-gradient(
+    90deg,
+    background-color: rgb(27, 27, 27);
+    color: rgb(151, 150, 150);
+  );
+
+};
+
+.skill {
+  text-align: center;
+  margin-left: 10px;
+}
+
+
+
+.contactButton {
+  color: rgb(0, 0, 0);
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.contactButton:hover {
+  text-decoration: none;
+  color: #ffff;
+  background: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(3, 154, 255, 0.629) 0%,
+    rgba(0, 90, 143, 1) 100%
+  );
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.section .heading {
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+
+
+
+#navigation {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(3, 154, 255, 0.629) 0%,
+    rgba(0, 90, 143, 1) 100%
+  );
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+}
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+#navigation li a:hover {
+  color: rgb(0, 57, 90);
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #000;
+}
+
+.navbar-toggler-icon {
+  background: url(../img/menu.png);
+  background-size: 100%;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+}
+.squareItem {
+  margin-top: 30px;
+  position: relative;
+}
+
+.squareInnerContainer {
+  position: relative;
+  padding: 50px 15px 35px;
+  text-align: center;
+  border: 2px solid #444;
+  border-top: none;
+}
+.squareInnerContainer:before,
+.squareInnerContainer:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  width: 30%;
+  border-bottom: 2px solid #444;
+}
+
+.squareInnerContainer:before {
+  right: 0px;
+}
+
+.squareInnerContainer:after {
+  left: 0px;
+}
+
+.squareContent h2 {
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(19, 146, 7, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.squareContent h3 {
+  font-size: 13px;
+  font-weight: 600px;
+  margin: 0;
+}
+
+.squareIcon {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 40%;
+  height: 50px;
+  font-size: 45px;
+  margin-left: -20%;
+  color: #444;
+}
+#txt {
+  margin-left: 175px;
+}
